@@ -1,0 +1,263 @@
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(99, 8, 23);
+}
+.navv {
+  overflow: hidden;
+  background-color: rgb(61, 50, 53);
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navv a {
+    float: none;
+    width: 100%;
+  }
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navv a {
+  float: left;
+  display: block;
+  color: rgb(235, 211, 216);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.cc {
+  float: left;
+  width: 60%;
+  padding: 20px;
+  
+}
+.roi:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .cc {
+    width: 100%;
+  }
+}
+.all
+{
+  
+  background-color:   rgb(199, 60, 60);
+  border: white 3px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  width: 70%;
+  height: 1200px;
+  margin-top: 20px;
+  
+}
+#main {   
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  width: 100%;
+}
+
+
+.card {
+  background-color:  rgb(199, 60, 60);
+  padding: 20px;
+  margin-top: 20px;
+  border: white 3px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  width:70% ;
+}
+.ca
+{
+  background-color:  rgb(199, 60, 60);
+  margin-top: 20px;
+  border: white 3px solid;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  width: 70%;
+}
+.header {
+  padding: 50px;
+  text-align: center;
+  background: rgb(8, 8, 8);
+  border: white 3px solid;
+}
+a{
+    color:black; 
+    float: right;
+    padding-left: 50px;
+    display:inline;
+  
+}
+
+a:hover{
+  color: #853c64;
+  background:palevioletred;
+}
+h1:hover{
+color:#ff008c;
+}
+h1
+{
+    padding-left: 100px ;
+    
+    
+        color:salmon;
+        font-size:50px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(199, 60, 60);
+  margin-top: 50px;
+  border: white 3px solid;
+}
+.foot
+{
+  padding: 20px;
+  text-align: center;
+  background: rgb(199, 60, 60);
+  margin-top: 50px;
+  border: white 3px solid;
+}
+#immg
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding-top: 80px;
+  
+
+}
+#all
+{
+  padding-top: 120px;
+  display: grid;
+  
+}
+img
+{
+  border: solid black 2px;
+}
+
+#tb
+{
+  float: right;
+  padding-bottom: 10px;
+  
+  
+}
+
+table
+{
+  border-collapse: collapse;
+  border: 2px solid black;
+  
+}
+tr{
+  border: 2px solid black;
+}
+th{
+  border: 2px solid black;
+}
+td{
+  border: 2px solid black;
+}
+#go
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+#jr
+{
+  border: solid black 4px;
+  background-color: blanchedalmond;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#cs
+{
+  border: solid black 4px;
+  background-color: blanchedalmond;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#hm
+{
+  border: solid black 4px;
+  background-color: blanchedalmond;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#vddd{
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+.java
+{
+  font-family: Helvetica ;}
+#for
+{
+  padding-left: 230px;
+  float: center;
+  padding-top: 90px;
+}
+.aa{
+float: bottom;
+}
+#cont
+{
+  padding-top: 50px;
+ 
+}
